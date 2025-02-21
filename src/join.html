@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"JOIN BELAB" })
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <main class="page">
+        <section class="contact">
+          <div class="contact__container">
+            <div class="contact__wrap">
+              <div class="wave-title wave-title-center contact__wave-title">
+                <h4 class="h4-title contact__subtitle">JOIN BELAB</h4>
+                <img class="contact__wave" src="@img/wave.svg" alt="Image" />
+              </div>
+              <h2 class="h2-title contact__title">
+                In vel dolor nec velit ultrices vulputate non vel mauris!
+              </h2>
+              <div class="contact__text">
+                In vel dolor nec velit ultrices vulputate non vel mauris. Fusce
+                tempus faucibus lorem id pretium. Sed posuere feugiat nisi quis
+                ullamcorper. Morbi accumsan libero quam, euismod ultrices enim
+                posuere vel. Morbi feugiat molestie fermentum. Donec odio neque,
+                ultricies quis erat eu, scelerisque venenatis nunc.
+              </div>
+              <div class="contact__message">
+                <div class="contact__message-error">
+                  An error occured while submitting the form. Please check the
+                  highlighted fields and try again.
+                </div>
+                <div class="contact__message-success">
+                  We have successfully received your application. We’ll be in
+                  touch soon!
+                </div>
+              </div>
+              <form class="contact__form">
+                <div class="contact__form-inputs">
+                  <div class="contact__form-item">
+                    <label for="" class="contact__form-label">FIRST NAME</label>
+                    <input
+                      class="contact__form-input"
+                      type="text"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div class="contact__form-item contact__form-item--error">
+                    <label for="" class="contact__form-label">Last NAME</label>
+                    <input
+                      class="contact__form-input"
+                      type="text"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div class="contact__form-item">
+                    <label for="" class="contact__form-label"
+                      >EMAIL ADDRESS</label
+                    >
+                    <input
+                      class="contact__form-input"
+                      type="email"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div class="contact__form-item">
+                    <label for="" class="contact__form-label">PHONE</label>
+                    <input
+                      class="contact__form-input"
+                      type="tel"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div class="contact__form-item">
+                    <label for="" class="contact__form-label">COMPANY</label>
+                    <input
+                      class="contact__form-input"
+                      type="text"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div class="contact__form-item">
+                    <label for="" class="contact__form-label">COUNTRY</label>
+                    <select class="contact__form-select" name="" id="">
+                      <option hidden disabled selected value>
+                        -- select an option --
+                      </option>
+                      <option value="Belgium">Belgium</option>
+                      <option value="France">France</option>
+                      <option value="Luxembourgh">Luxembourgh</option>
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="Germany">Germany</option>
+                    </select>
+                  </div>
+                  <div class="contact__form-item contact__form-item--error">
+                    <label for="" class="contact__form-label">VAT NUMBER</label>
+                    <input
+                      class="contact__form-input"
+                      type="text"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                </div>
+                <div class="contact__form-textarea">
+                  <label for="">MESSAGE</label>
+                  <textarea name="" id="" cols="30" rows="4"></textarea>
+                </div>
+                <button class="contact__form-button" type="submit">
+                  JOIN US!
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('html/_footer.htm',{})
+    </div>
+    @@include('html/_js.htm',{})
+  </body>
+</html>
