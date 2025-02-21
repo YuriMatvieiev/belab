@@ -63,6 +63,9 @@
     margin-top: toRem(25);
     display: flex;
     gap: 18px;
+    .white-transparent-button {
+      border: 1px solid #fff;
+    }
     @media (max-width: $mobile) {
       justify-content: center;
     }
